@@ -1,4 +1,4 @@
-package com.zachmig.rest;
+package com.zachmig.rest.controller;
 
 
 import java.util.List;
@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.zachmig.rest.repository.FoodRepository;
+
 /**
  * Rest Controller which will handle get requests containing a food name
  * 	and respond with a JSON containing its neighbors
@@ -17,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  */
 @RestController
-public class Controller {
+public class FoodController {
 	@Autowired
 	private FoodRepository foodRepo;
 	

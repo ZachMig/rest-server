@@ -1,4 +1,4 @@
-package com.zachmig.rest;
+package com.zachmig.rest.controller;
 
 import java.util.List;
 
@@ -7,6 +7,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.zachmig.rest.entity.Review;
+import com.zachmig.rest.repository.ReviewRepository;
 
 @RestController
 public class ReviewController {

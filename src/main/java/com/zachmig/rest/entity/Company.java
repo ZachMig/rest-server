@@ -1,4 +1,4 @@
-package com.zachmig.rest;
+package com.zachmig.rest.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.zachmig.rest;
+package com.zachmig.rest.entity;
 
 import java.time.LocalDate;
 
